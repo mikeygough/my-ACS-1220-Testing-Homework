@@ -139,7 +139,6 @@ class MainTests(unittest.TestCase):
         self.assertIn("<h1>To Kill a Mockingbird</h1>", response_text)
         self.assertIn("July 11, 1960", response_text)
         self.assertIn("Harper Lee", response_text)
-
         self.assertIn("Favorite This Book", response_text)
 
     def test_update_book(self):
